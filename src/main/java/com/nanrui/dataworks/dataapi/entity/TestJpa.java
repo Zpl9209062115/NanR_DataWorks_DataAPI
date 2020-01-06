@@ -16,7 +16,7 @@ public class TestJpa {
     @GeneratedValue(generator = "jpa-uuid")//自增主键
     private String id;
 
-    @Column(length = 255)
+    @Column(columnDefinition = "varchar(255) COMMENT '姓名注释'")
     private String lastName;
 
     @Column(length = 255)
