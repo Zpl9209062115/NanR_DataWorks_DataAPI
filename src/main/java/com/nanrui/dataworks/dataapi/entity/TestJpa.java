@@ -1,4 +1,4 @@
-package com.nanrui.dataworks.dataapi.demo;
+package com.nanrui.dataworks.dataapi.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
